@@ -13,6 +13,10 @@
 		18DF38A025F40A32001F392A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF389E25F40A32001F392A /* Main.storyboard */; };
 		18DF38A225F40A33001F392A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DF38A125F40A33001F392A /* Assets.xcassets */; };
 		18DF38A525F40A33001F392A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF38A325F40A33001F392A /* LaunchScreen.storyboard */; };
+		18ECE1C325F4876700AD6F8C /* charNoGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECE1C125F4876700AD6F8C /* charNoGlass.png */; };
+		18ECE1C425F4876700AD6F8C /* charGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECE1C225F4876700AD6F8C /* charGlass.png */; };
+		18ECE1C725F4879A00AD6F8C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECE1C625F4879A00AD6F8C /* ImageViewController.swift */; };
+		18ECE1CA25F5159700AD6F8C /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECE1C925F5159700AD6F8C /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		18DF38A125F40A33001F392A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DF38A425F40A33001F392A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DF38A625F40A33001F392A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ECE1C125F4876700AD6F8C /* charNoGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charNoGlass.png; path = ../../imageViewPractice/imageViewPractice/charNoGlass.png; sourceTree = "<group>"; };
+		18ECE1C225F4876700AD6F8C /* charGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charGlass.png; path = ../../imageViewPractice/imageViewPractice/charGlass.png; sourceTree = "<group>"; };
+		18ECE1C625F4879A00AD6F8C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../../imageViewPractice/imageViewPractice/ImageViewController.swift; sourceTree = "<group>"; };
+		18ECE1C925F5159700AD6F8C /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = ../../DatePicker/DatePicker/DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		18DF389725F40A32001F392A /* tabControl */ = {
 			isa = PBXGroup;
 			children = (
+				18ECE1C225F4876700AD6F8C /* charGlass.png */,
+				18ECE1C125F4876700AD6F8C /* charNoGlass.png */,
+				18ECE1C925F5159700AD6F8C /* DateViewController.swift */,
 				18DF389825F40A32001F392A /* AppDelegate.swift */,
 				18DF389A25F40A32001F392A /* SceneDelegate.swift */,
 				18DF389C25F40A32001F392A /* ViewController.swift */,
+				18ECE1C625F4879A00AD6F8C /* ImageViewController.swift */,
 				18DF389E25F40A32001F392A /* Main.storyboard */,
 				18DF38A125F40A33001F392A /* Assets.xcassets */,
 				18DF38A325F40A33001F392A /* LaunchScreen.storyboard */,
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DF38A525F40A33001F392A /* LaunchScreen.storyboard in Resources */,
+				18ECE1C425F4876700AD6F8C /* charGlass.png in Resources */,
 				18DF38A225F40A33001F392A /* Assets.xcassets in Resources */,
 				18DF38A025F40A32001F392A /* Main.storyboard in Resources */,
+				18ECE1C325F4876700AD6F8C /* charNoGlass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ECE1CA25F5159700AD6F8C /* DateViewController.swift in Sources */,
 				18DF389D25F40A32001F392A /* ViewController.swift in Sources */,
 				18DF389925F40A32001F392A /* AppDelegate.swift in Sources */,
+				18ECE1C725F4879A00AD6F8C /* ImageViewController.swift in Sources */,
 				18DF389B25F40A32001F392A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
