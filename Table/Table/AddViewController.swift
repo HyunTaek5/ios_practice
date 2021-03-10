@@ -15,6 +15,10 @@ class AddViewController: UITableViewController {
 
     }
     @IBAction func btnAddItem(_ sender: UIButton) {
+        items.append(tfAddItem.text!)
+        itemsImageFile.append("clock.jpg")
+        tfAddItem.text = ""
+        _ = navigationController?.popViewController(animated: true)
     }
     
 

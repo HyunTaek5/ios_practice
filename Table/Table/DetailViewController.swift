@@ -8,11 +8,19 @@
 import UIKit
 
 class DetailViewController: UITableViewController {
+    
+    var receiveItem = ""
+    
     @IBOutlet var lblItem: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        lblItem.text = receiveItem
+    }
+    
+    func receiveItem(_ item: String) {
+        receiveItem = item
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
